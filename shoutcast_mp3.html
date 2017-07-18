@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Preciso da criação de um player em html5 parecido com este que ja tenho http://player-webservic.com/9594 onde deve aceitar streaming shoutcast v1, V2 e icecast tanto em mp3 quanto em aac.
+
+O player precisa ter play, stop, volume, mostrar nome da musica que ta tocando no streaming tambem.
+Precisa ter os icones de facebook e twitter tbm. -->
+
+
+<!-- <audio id="player" src="http://72.55.164.118:8011/autodj"></audio> -->
+<style>
+	body {
+		font-family: 'Roboto Condensed', sans-serif;
+
+	}
+
+	.mediaHldr {
+		width:640px; 
+		margin: 0 auto; 
+		margin-bottom:14em;
+	}
+
+	h1, h2, footer {
+		text-align: center;
+	}
+
+	footer {
+		font-size: 0.8em;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	p {
+		padding-bottom:2em;
+	}
+
+	audio {
+		width:640px;
+
+	}
+</style>
+</head>
+
+<body>
+<h1>shoutcast aac</h1>
+
+<div class="mediaHldr">
+<h2>SHOUTcast - shoutcast mp3</h2> 
+<audio id="myAudio" src="http://72.55.164.118:8933/stream"  controls>
+  
+</audio>
+</div>
+
+
+</body>
+</html>
